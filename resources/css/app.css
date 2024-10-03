@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Credit Card";
+    src: url('../fonts/creditcard.ttf');
+}
+
+.credit-card {
+    font-family: "Credit Card";
+}
+
+.custom-drawer {
+    width: 65% !important;
+}
+@media (min-width: 1024px) {
+    .lg\:w-4\/5 {
+        width: 90%;
+    }
+}
